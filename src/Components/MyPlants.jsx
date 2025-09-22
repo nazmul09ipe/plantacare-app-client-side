@@ -108,7 +108,7 @@ const MyPlants = () => {
                     </div>
                   </div>
 
-                  <div className="mt-4 flex flex-col sm:flex-row justify-between gap-2">
+                  <div className="mt-4 flex flex-col sm:flex-row justify-between gap-3">
                     <Link to={`/updatePlants/${plant._id}`}>
                       <button className="flex-1 bg-yellow-500 hover:bg-yellow-600 text-white font-semibold py-2 px-4 rounded-lg transition-colors">
                         Update
