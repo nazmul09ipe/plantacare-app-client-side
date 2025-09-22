@@ -9,7 +9,6 @@ function Faqs() {
         <title>FAQs | PlantaCare</title>
       </Helmet>
 
-      {/* Heading Section */}
       <div className="w-full ml-60 flex flex-col justify-center items-center max-w-4xl  mb-10">
         <h1 className="text-3xl sm:text-4xl font-bold text-amber-600 dark:text-amber-400 mb-2">
           Our FAQs
@@ -19,7 +18,7 @@ function Faqs() {
         </h2>
       </div>
 
-      {/* Accordion Section */}
+     
       <div className="max-w-4xl mx-auto bg-white dark:bg-gray-900 rounded-3xl shadow-xl p-6 sm:p-8 space-y-3 transition-colors duration-500">
         {[
           {
