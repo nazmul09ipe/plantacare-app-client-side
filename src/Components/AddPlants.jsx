@@ -42,7 +42,7 @@ const AddPlants = () => {
         onSubmit={handleAddPlants}
         className="bg-green-100 dark:bg-green-900/50 backdrop-blur-md shadow-xl rounded-2xl w-full max-w-5xl p-6 sm:p-8 grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6 transition-colors duration-300"
       >
-        {/* Plant Name */}
+      
         <div className="flex flex-col">
           <label className="mb-1 font-semibold text-gray-800 dark:text-gray-200">Plant Name</label>
           <input
@@ -54,7 +54,6 @@ const AddPlants = () => {
           />
         </div>
 
-        {/* Category */}
         <div className="flex flex-col">
           <label className="mb-1 font-semibold text-gray-800 dark:text-gray-200">Category</label>
           <select
@@ -69,7 +68,7 @@ const AddPlants = () => {
           </select>
         </div>
 
-        {/* Description */}
+     
         <div className="flex flex-col">
           <label className="mb-1 font-semibold text-gray-800 dark:text-gray-200">Description</label>
           <input
@@ -80,7 +79,7 @@ const AddPlants = () => {
           />
         </div>
 
-        {/* Care Level */}
+       
         <div className="flex flex-col">
           <label className="mb-1 font-semibold text-gray-800 dark:text-gray-200">Care Level</label>
           <select
@@ -93,7 +92,7 @@ const AddPlants = () => {
           </select>
         </div>
 
-        {/* Last Watered */}
+       
         <div className="flex flex-col">
           <label className="mb-1 font-semibold text-gray-800 dark:text-gray-200">Last Watered Date</label>
           <input
@@ -103,7 +102,7 @@ const AddPlants = () => {
           />
         </div>
 
-        {/* Next Watering */}
+     
         <div className="flex flex-col">
           <label className="mb-1 font-semibold text-gray-800 dark:text-gray-200">Next Watering Date</label>
           <input
@@ -113,7 +112,6 @@ const AddPlants = () => {
           />
         </div>
 
-        {/* User Name */}
         <div className="flex flex-col">
           <label className="mb-1 font-semibold text-gray-800 dark:text-gray-200">User Name</label>
           <input
@@ -124,7 +122,7 @@ const AddPlants = () => {
           />
         </div>
 
-        {/* User Email */}
+     
         <div className="flex flex-col">
           <label className="mb-1 font-semibold text-gray-800 dark:text-gray-200">User Email</label>
           <input
@@ -135,7 +133,7 @@ const AddPlants = () => {
           />
         </div>
 
-        {/* Health Status */}
+     
         <div className="flex flex-col">
           <label className="mb-1 font-semibold text-gray-800 dark:text-gray-200">Health Status</label>
           <input
@@ -146,7 +144,7 @@ const AddPlants = () => {
           />
         </div>
 
-        {/* Watering Frequency */}
+       
         <div className="flex flex-col">
           <label className="mb-1 font-semibold text-gray-800 dark:text-gray-200">Watering Frequency</label>
           <input
@@ -157,7 +155,7 @@ const AddPlants = () => {
           />
         </div>
 
-        {/* Photo URL */}
+    
         <div className="flex flex-col md:col-span-2">
           <label className="mb-1 font-semibold text-gray-800 dark:text-gray-200">Photo URL</label>
           <input
@@ -168,7 +166,7 @@ const AddPlants = () => {
           />
         </div>
 
-        {/* Submit Button */}
+ 
         <div className="md:col-span-2 flex justify-center mt-4 sm:mt-6">
           <button
             type="submit"
