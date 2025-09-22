@@ -45,7 +45,7 @@ function Login() {
 
       <div className="bg-white dark:bg-gray-900 shadow-2xl rounded-3xl w-full max-w-md p-6 sm:p-8 md:p-10 transition-colors duration-500">
         <form onSubmit={handleLogin} className="flex flex-col gap-5 sm:gap-6">
-          {/* Email */}
+         
           <div className="flex flex-col">
             <label className="mb-2 font-medium text-gray-700 dark:text-gray-300">
               Email
@@ -61,7 +61,7 @@ function Login() {
             />
           </div>
 
-          {/* Password */}
+       
           <div className="flex flex-col relative">
             <label className="mb-2 font-medium text-gray-700 dark:text-gray-300">
               Password
@@ -83,7 +83,7 @@ function Login() {
             </span>
           </div>
 
-          {/* Forgot password */}
+         
           <div className="text-right">
             <Link
               to="/auth/forgetPassword"
@@ -94,12 +94,12 @@ function Login() {
             </Link>
           </div>
 
-          {/* Login button */}
+         
           <button className="w-full py-3 rounded-xl bg-green-600 dark:bg-green-500 text-white font-semibold hover:bg-green-700 dark:hover:bg-green-600 transition">
             Login
           </button>
 
-          {/* Google Login */}
+       
           <button
             type="button"
             onClick={handleLoginWithGoogle}
@@ -111,7 +111,7 @@ function Login() {
             </span>
           </button>
 
-          {/* Register link */}
+       
           <div className="flex justify-center items-center gap-2 mt-4 text-gray-700 dark:text-gray-300 flex-wrap text-center">
             <span>New to PlantaCare?</span>
             <Link
