@@ -40,7 +40,7 @@ const AllPlants = () => {
     <div className="min-h-screen bg-gradient-to-br from-green-50 to-green-100 dark:from-gray-900 dark:to-gray-800 p-4 sm:p-6 md:p-8 transition-colors duration-300">
       <div className="max-w-7xl mx-auto bg-white dark:bg-gray-900 rounded-2xl shadow-xl p-4 sm:p-6 md:p-8 transition-colors duration-300">
         
-        {/* Care Level Filter */}
+      
         <div className="mb-4 flex flex-col sm:flex-row items-start sm:items-center gap-2 sm:gap-4">
           <label className="font-semibold text-gray-700 dark:text-gray-200">Filter by Care Level:</label>
           <select
@@ -55,7 +55,6 @@ const AllPlants = () => {
           </select>
         </div>
 
-        {/* Table */}
         <div className="overflow-x-auto rounded-lg">
           <table className="min-w-full text-sm sm:text-base md:text-base text-left border-collapse">
             <thead>
