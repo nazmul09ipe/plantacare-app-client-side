@@ -49,7 +49,6 @@ export default function FeatureSlider() {
           <SwiperSlide key={index}>
             <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-md overflow-hidden flex flex-col md:flex-row">
               
-              {/* Image */}
               <div className="md:w-1/2 w-full h-64 md:h-auto">
                 <img
                   src={feature.image}
@@ -58,7 +57,7 @@ export default function FeatureSlider() {
                 />
               </div>
 
-              {/* Text */}
+          
               <div className="p-4 sm:p-6 md:p-8 flex-1 flex flex-col justify-center bg-[#0bc743] dark:bg-[#05a21d]">
                 <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold mb-3 sm:mb-4 text-white">
                   {feature.title}
