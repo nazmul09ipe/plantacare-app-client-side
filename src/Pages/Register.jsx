@@ -66,7 +66,7 @@ function Register() {
 
       <div className="bg-white dark:bg-gray-900 shadow-2xl rounded-3xl w-full max-w-md p-8 md:p-10 transition-colors duration-500">
         <form onSubmit={handleRegister} className="flex flex-col gap-6">
-          {/* Name */}
+      
           <div className="flex flex-col">
             <label className="mb-2 font-medium text-gray-700 dark:text-gray-300">
               Name
@@ -80,7 +80,7 @@ function Register() {
             />
           </div>
 
-          {/* Email */}
+        
           <div className="flex flex-col">
             <label className="mb-2 font-medium text-gray-700 dark:text-gray-300">
               Email
@@ -94,7 +94,7 @@ function Register() {
             />
           </div>
 
-          {/* Photo URL */}
+         
           <div className="flex flex-col">
             <label className="mb-2 font-medium text-gray-700 dark:text-gray-300">
               Photo URL
@@ -107,7 +107,7 @@ function Register() {
             />
           </div>
 
-          {/* Password */}
+         
           <div className="flex flex-col relative">
             <label className="mb-2 font-medium text-gray-700 dark:text-gray-300">
               Password
@@ -127,14 +127,13 @@ function Register() {
             </span>
           </div>
 
-          {/* Password rules */}
+   
           <p className="text-sm text-gray-600 dark:text-gray-400 mt-1 ml-1">
             <span className="block">• At least 6 characters</span>
             <span className="block">• At least one uppercase letter</span>
             <span className="block">• At least one lowercase letter</span>
           </p>
 
-          {/* Terms & Conditions */}
           <div className="flex items-center gap-3">
             <input type="checkbox" required className="accent-green-500" />
             <span className="text-sm text-gray-700 dark:text-gray-300">
@@ -148,12 +147,12 @@ function Register() {
             </span>
           </div>
 
-          {/* Register button */}
+        
           <button className="w-full py-3 rounded-xl bg-green-600 dark:bg-green-500 text-white font-semibold hover:bg-green-700 dark:hover:bg-green-600 transition">
             Register
           </button>
 
-          {/* Already have account */}
+          
           <div className="flex justify-center items-center gap-2 mt-4 text-gray-700 dark:text-gray-300">
             <span>Already have an account?</span>
             <Link
