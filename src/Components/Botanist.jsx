@@ -35,7 +35,7 @@ export function BotanistPanel() {
   ];
 
   return (
-    <section className="py-12 sm:py-16 px-4 sm:px-6 lg:px-8">
+    <section className="py-10 sm:py-15 px-4 sm:px-6 lg:px-8">
       <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-center text-black dark:text-white mb-10 sm:mb-12 secondary-font">
         Meet Our Botanist Panel
       </h2>
