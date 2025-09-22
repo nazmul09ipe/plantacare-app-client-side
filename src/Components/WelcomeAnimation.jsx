@@ -6,7 +6,7 @@ export default function WelcomeAnimation() {
   const lottieRef = useRef();
 
   return (
-    <div className="flex justify-center items-center mt-5 mb-0">
+    <div className="flex justify-center items-center mt-5 mb-2">
       <div className="w-full max-w-xs sm:max-w-sm md:max-w-md">
         <Lottie
           lottieRef={lottieRef}
