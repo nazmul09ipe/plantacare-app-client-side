@@ -9,13 +9,13 @@ function Privacy() {
         <title>Privacy Policy | PlantaCare</title>
       </Helmet>
 
-      {/* Page Header */}
+   
       <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-orange-800 dark:text-orange-400 text-center mb-10">
         PlantaCare – Privacy Policy
       </h1>
 
       <div className="max-w-4xl mx-auto bg-white dark:bg-gray-900 rounded-3xl shadow-xl p-8 sm:p-10 space-y-8 transition-colors duration-500">
-        {/* Effective Date & Intro */}
+        
         <section className="text-center">
           <p className="text-base sm:text-lg font-medium mb-2 text-gray-700 dark:text-gray-300">
             Effective Date: July 2025
@@ -35,7 +35,7 @@ function Privacy() {
           </p>
         </section>
 
-        {/* Sections */}
+       
         <section>
           <h3 className="text-lg font-bold mb-2 text-gray-900 dark:text-gray-100">1. Information We Collect</h3>
           <p className="text-gray-700 dark:text-gray-300">
