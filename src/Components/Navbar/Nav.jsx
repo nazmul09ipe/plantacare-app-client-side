@@ -58,7 +58,7 @@ const Navbar = () => {
   return (
     <nav className="w-full bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 shadow-lg sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center h-20">
-        {/* Logo */}
+      
         <div className="flex flex-col sm:flex-row items-center gap-1">
           <img className="w-16 h-16 sm:w-20 sm:h-20 hover:scale-105 transition-transform duration-300" src={Logo} alt="Logo" />
           <div className="flex flex-col items-center sm:items-start">
@@ -67,12 +67,12 @@ const Navbar = () => {
           </div>
         </div>
 
-        {/* Desktop Nav */}
+      
         <div className="hidden md:flex gap-8 font-bold text-lg primary-font">
           {navLinks}
         </div>
 
-        {/* Right Side */}
+      
         <div className="flex items-center gap-3 md:gap-5">
           {!user && (
             <>
@@ -116,19 +116,19 @@ const Navbar = () => {
             </div>
           )}
 
-          {/* Theme Toggle */}
+         
           <button onClick={() => setTheme(!theme)} className="text-2xl btn btn-circle btn-outline">
             {theme ? <GoSun /> : <FaMoon />}
           </button>
 
-          {/* Mobile Menu Button */}
+         
           <button className="md:hidden text-2xl ml-2" onClick={() => setMobileMenu(!mobileMenu)}>
             {mobileMenu ? <IoClose /> : <IoMenu />}
           </button>
         </div>
       </div>
 
-      {/* Mobile Menu */}
+      
       {mobileMenu && (
         <div className="md:hidden bg-white dark:bg-gray-900 px-4 pt-4 pb-6 flex flex-col gap-4 font-bold text-lg">
           {navLinks}
