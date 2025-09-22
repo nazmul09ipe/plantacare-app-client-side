@@ -9,7 +9,7 @@ const PlantCategories = () => {
   ];
 
   return (
-    <section className="w-11/12 mx-auto py-16 px-4 sm:px-6 md:px-8">
+    <section className="w-11/12 mx-auto py-16 px-4 sm:px-6 md:px-8 lg:px-10">
       <h2 className="text-4xl sm:text-5xl font-bold text-center mb-10 secondary-font text-black dark:text-white">
         Explore Plant Categories
       </h2>
