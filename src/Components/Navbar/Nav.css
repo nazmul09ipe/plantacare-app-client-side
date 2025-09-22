@@ -1,0 +1,14 @@
+/* Nav.css */
+
+
+
+
+a.active {
+  color:rgb(63, 240, 23); 
+  font-weight: bold;
+ 
+
+}
+a:hover{
+  color:rgb(9, 222, 16);
+}
