@@ -15,7 +15,7 @@ const AllPlants = () => {
       try {
         setLoading(true);
         const query = careLevelFilter ? `?careLevel=${careLevelFilter}` : "";
-        const res = await fetch(`http://localhost:5000/plants${query}`);
+        const res = await fetch(`https://assignment-10-server-side-nu.vercel.app/plants${query}`);
         if (!res.ok) throw new Error("Failed to fetch plants");
         const data = await res.json();
         if (newPlant) {

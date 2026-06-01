@@ -1,8 +1,8 @@
 import React from "react";
 import { createBrowserRouter } from "react-router";
 import HomeLayout from "./../Layouts/HomeLayouts/HomeLayout";
-import Home from "./../Components/Home";
-import AllPlants from "./../Components/AllPlants";
+import Home from "./../Pages/Home";
+import AllPlants from "./../Components/features/AllPlants";
 
 import AuthLayout from "./../Layouts/AuthLayouts/AuthLayout";
 import Login from "./../Pages/Login";
@@ -12,12 +12,12 @@ import Error from "./../Pages/Error";
 import Faqs from "./../Pages/Faqs";
 import Terms from "./../Pages/Terms";
 import Privacy from "./../Pages/Privacy";
-import AddPlantsWrapper from "./../Components/AddPlantsWrapper";
-import MyPlantsWrapper from "./../Components/MyPlantsWrapper";
+import AddPlantsWrapper from "./../Components/features/AddPlantsWrapper";
+import MyPlantsWrapper from "./../Components/features/MyPlantsWrapper";
 import PlantDetails from "../Pages/PlantDetails";
 
 import UpdatePlants from "../Pages/UpdatePlants";
-import MyPlants from "../Components/MyPlants";
+import MyPlants from "../Components/features/MyPlants";
 
 const Router = createBrowserRouter([
   {
@@ -62,7 +62,7 @@ const Router = createBrowserRouter([
         path: "/privacy",
         Component: Privacy,
       },
-{
+      {
         path: "/updatePlants/:id",
         Component: UpdatePlants,
       },

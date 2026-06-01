@@ -9,7 +9,7 @@ const UpdatePlants = () => {
 
   // Fetch existing plant details
   useEffect(() => {
-    fetch(`http://localhost:5000/plants/${id}`)
+    fetch(`https://assignment-10-server-side-nu.vercel.app/plants/${id}`)
       .then((res) => res.json())
       .then((data) => setPlant(data))
       .catch((err) => console.error("Error fetching plant:", err));
@@ -20,7 +20,7 @@ const UpdatePlants = () => {
     const formData = new FormData(e.target);
     const updatedPlantData = Object.fromEntries(formData.entries());
 
-    fetch(`http://localhost:5000/plants/${id}`, {
+    fetch(`https://assignment-10-server-side-nu.vercel.app/plants/${id}`, {
       method: "PUT",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(updatedPlantData),

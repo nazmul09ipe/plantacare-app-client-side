@@ -11,7 +11,7 @@ const AddPlants = () => {
     const formData = new FormData(form);
     const newPlantData = Object.fromEntries(formData.entries());
 
-    fetch("http://localhost:5000/plants", {
+    fetch("https://assignment-10-server-side-nu.vercel.app/plants", {
       method: "POST",
       headers: { "content-type": "application/json" },
       body: JSON.stringify(newPlantData)

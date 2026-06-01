@@ -1,5 +1,5 @@
 import { use, useEffect, useState } from "react";
-import { AuthContext } from "../Layouts/AuthLayouts/AuthProvider";
+import { AuthContext } from "../../Layouts/AuthLayouts/AuthProvider";
 import Swal from "sweetalert2"; 
 import { Link } from 'react-router';
 
@@ -8,7 +8,7 @@ const MyPlants = () => {
   const [allPlants, setAllPlants] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:5000/plants")
+    fetch("https://assignment-10-server-side-nu.vercel.app/plants")
       .then((res) => res.json())
       .then((data) => setAllPlants(data));
   }, []);
@@ -38,7 +38,7 @@ const MyPlants = () => {
       })
       .then((result) => {
         if (result.isConfirmed) {
-          fetch(`http://localhost:5000/plants/${_id}`, { method: "DELETE" })
+          fetch(`https://assignment-10-server-side-nu.vercel.app/plants/${_id}`, { method: "DELETE" })
             .then((res) => res.json())
             .then((data) => {
               if (data.deletedCount > 0) {

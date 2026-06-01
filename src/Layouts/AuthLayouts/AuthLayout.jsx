@@ -1,8 +1,8 @@
 import React from 'react';
 
 import { Outlet } from 'react-router';
-import Footer from './../../Components/Footer';
-import Navbar from './../../Components/Navbar/Nav';
+import Footer from '../../Components/ui/Footer';
+import Navbar from '../../Components/ui/Navbar/Nav';
 
 const AuthLayout = () => {
     return (

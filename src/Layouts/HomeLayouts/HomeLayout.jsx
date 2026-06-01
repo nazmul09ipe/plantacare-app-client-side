@@ -1,8 +1,9 @@
 import React from "react";
 import { Outlet, ScrollRestoration, useNavigation } from "react-router";
 
-import Footer from "../../Components/Footer";
-import Navbar from "./../../Components/Navbar/Nav";
+import Footer from "../../Components/ui/Footer";
+import Navbar from "./../../Components/ui/Navbar/Nav";
+import Loading from "../../Components/ui/Loading";
 
 const HomeLayout = () => {
   const { state } = useNavigation();

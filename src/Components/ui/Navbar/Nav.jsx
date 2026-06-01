@@ -1,8 +1,8 @@
 import React, { useEffect, useState, useRef, useContext } from "react"; 
-import Logo from '../../assets/Logo.png';
+import Logo from '../../../assets/Logo.png';
 import './Nav.css';
 import { NavLink, useNavigate } from "react-router";
-import { AuthContext } from "../../Layouts/AuthLayouts/AuthProvider";
+import { AuthContext } from "../../../Layouts/AuthLayouts/AuthProvider";
 import { GoSun } from "react-icons/go";
 import { FaMoon } from "react-icons/fa";
 import { Tooltip } from 'react-tooltip';

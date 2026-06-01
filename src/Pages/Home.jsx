@@ -1,11 +1,11 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
-import AutoSwiper from './AutoSwiper';
-import Testimonial from './Testimonial';
-import PlantCategories from './PlantCategories';
-import { BotanistPanel } from './Botanist';
-import LottieAnimation from './LottieAnimation';
-import WelcomeAnimation from './WelcomeAnimation';
+import AutoSwiper from '../Components/ui/AutoSwiper';
+import Testimonial from '../Components/ui/Testimonial';
+import PlantCategories from '../Components/features/PlantCategories';
+import BotanistPanel from '../Components/features/Botanist';
+import LottieAnimation from '../Components/ui/LottieAnimation';
+import WelcomeAnimation from '../Components/ui/WelcomeAnimation';
 
 
 

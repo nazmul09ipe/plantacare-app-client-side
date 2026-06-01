@@ -1,6 +1,6 @@
 import { useRef } from "react";
 import Lottie from "lottie-react";
-import animationData from "../Animation/Animation.json";
+import animationData from "../../Animation/Animation.json";
 
 export default function LottieAnimation() {
   const lottieRef = useRef();

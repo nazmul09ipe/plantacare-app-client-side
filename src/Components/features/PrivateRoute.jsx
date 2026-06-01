@@ -5,8 +5,8 @@ import { Navigate } from 'react-router';
 import { use } from 'react';
 
 
-import { AuthContext } from './../Layouts/AuthLayouts/AuthProvider';
-import Loading from './Loading';
+import { AuthContext } from '../../Layouts/AuthLayouts/AuthProvider';
+import Loading from '../ui/Loading';
 
 
 

@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { NavLink } from 'react-router';
-import logo from '../assets/Logo.png';
+import logo from '../../assets/Logo.png';
 import { toast } from 'react-toastify';
 
 function Footer() {

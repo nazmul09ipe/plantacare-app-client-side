@@ -6,7 +6,7 @@ const PlantDetails = () => {
   const [plantData, setPlantData] = useState(null);
 
   useEffect(() => {
-    fetch("http://localhost:5000/plants")
+    fetch("https://assignment-10-server-side-nu.vercel.app/plants")
       .then((res) => res.json())
       .then((data) => {
         const plant = data.find((item) => item._id === _id);
